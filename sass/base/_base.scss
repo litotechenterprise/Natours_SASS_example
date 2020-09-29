@@ -1,0 +1,20 @@
+
+*, *::after,*::before  {
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+html {
+    /*   most browers default text-size of 16px
+        .625 is the % we would like to use from the default size
+                16 * .625 = 10px
+        our root size is 10px 
+         */
+    // defines what one ram is
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}

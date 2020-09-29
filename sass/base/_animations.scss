@@ -1,0 +1,66 @@
+
+
+@keyframes moveInLeft {
+    /* identifying compation rates of the animiation */
+
+    /* Intital start */
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem); /* moving horizontially (left, right) */
+    }
+
+    80% {
+        transform: translate(1rem);
+    }
+
+    /* Complete */
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    /* identifying compation rates of the animiation */
+
+    /* Intital start */
+    0% {
+        opacity: 0;
+        transform: translateX(10rem); /* moving horizontially (left, right) */
+    }
+
+    80% {
+        transform: translate(-1rem);
+    }
+
+
+
+    /* Complete */
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
+
+
+
+@keyframes moveInBottom {
+    /* identifying compation rates of the animiation */
+
+    /* Intital start */
+    0% {
+        opacity: 0;
+        transform: translateY(3rem); /* moving horizontially (left, right) */
+    }
+
+
+
+    /* Complete */
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
